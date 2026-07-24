@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAMP MALCHIN</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- 상단 -->
+        <div class="header-inner">
+            <!-- 햄버거 버튼 -->
+            <div class="menu-btn" onclick="openMenu()">☰</div>
+
+            <!-- 로고 이미지 -->
+            <h1 onclick="scrollToTop()">
+                <img src="images/가로로고.svg" alt="campmalchin">
+            </h1>
+
+            <!-- 오른쪽 균형 -->
+            <div class="right-space"></div>
+        </div>
+
+        <nav>
+            <a href="#">ABOUT US</a>
+            <a href="#">TOUR</a>
+            <a href="#">CONTACT</a>
+        </nav>
+    </header>
+
+    <section class="slider">
+        <div class="slides" id="slides">
+
+            <div class="slide">
+                <img src="./images/DSC01905.jpg">
+                <div class="slide-text">
+                    <h2>몽골 캠프 투어</h2>
+                    <p>대자연 속 특별한 경험</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="./images/DSC02221.jpg">
+            </div>
+
+            <div class="slide">
+                <img src="./images/DSC03824.jpg">
+            </div>
+
+        </div>
+
+        <!-- 인디케이터 -->
+        <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <section class="product-section">
+
+        <div class="product-list">
+            <a href="detail.html?id=1" class="card-link">
+                <div class="card">
+                    <img src="images/DSC02060.jpg">
+                    <div class="card-overlay">
+                        <h3>몽골 초원 캠프</h3>
+                        <p>3박 4일 힐링 여행</p>
+                        <span class="price">₩890,000</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="product-list">
+            <a href="detail.html?id=2" class="card-link">
+                <div class="card">
+                    <img src="images/DSC03657.jpg">
+                    <div class="card-overlay">
+                        <h3>헌터커브 투어</h3>
+                        <p>4박 5일 모터싸이클 여행</p>
+                        <span class="price">₩890,000</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </section>
+
+    <script src="js/slider.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
