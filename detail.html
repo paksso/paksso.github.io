@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>상품 상세</title>
+  <link rel="stylesheet" href="css/detail_style.css">
+</head>
+<body>
+
+<!-- 상단 -->
+<header class="detail-header">
+  <div onclick="history.back()">←</div>
+  <h1>상품 상세</h1>
+  <div></div>
+</header>
+
+<!-- 이미지 -->
+<section class="detail-hero">
+  <img id="detail-img">
+</section>
+
+<!-- 내용 -->
+<section class="detail-content">
+
+  <h2 id="detail-title"></h2>
+  <p class="desc" id="detail-desc"></p>
+
+  <div class="price-box">
+    <span>가격</span>
+    <strong id="detail-price"></strong>
+  </div>
+
+  <!-- 포인트 -->
+  <div class="info-box">
+    <h3>여행 포인트</h3>
+    <ul id="detail-points"></ul>
+  </div>
+
+</section>
+
+<!-- 하단 고정 버튼 -->
+<div class="bottom-bar">
+  <button>예약하기</button>
+</div>
+
+<script src="js/detail.js"></script>
+</body>
+</html>
