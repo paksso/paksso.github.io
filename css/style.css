@@ -373,3 +373,87 @@ nav a {
     color: #666;
     font-size: 14px;
 }
+
+/* ========================= */
+/* STAFF SECTION */
+/* ========================= */
+
+.staff-section {
+    background: #f7f4ea;
+    padding: 70px 20px;
+}
+
+.staff-card {
+    display: flex;
+    gap: 20px;
+
+    background: #f7f4ea;
+    border-radius: 20px;
+
+    padding: 24px;
+
+    border: 1px solid rgba(135,124,77,0.15);
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.staff-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* 왼쪽 영역 */
+
+.staff-left {
+    width: 90px;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.staff-left img {
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+    object-fit: cover;
+
+    border: 3px solid #877c4d;
+}
+
+.staff-name {
+    margin-top: 10px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #2f2f2f;
+
+    text-align: center;
+}
+
+/* 오른쪽 영역 */
+
+.staff-right {
+    flex: 1;
+    text-align: left;
+}
+
+.staff-role {
+    color: #877c4d;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    margin-bottom: 10px;
+}
+
+.staff-desc {
+    color: #555;
+
+    font-size: 14px;
+    line-height: 1.8;
+}
