@@ -239,6 +239,7 @@
 
     padding: 24px;
     align-items: center;
+    gap:10px;
 
     border: 3px solid rgba(135,124,77,0.25);
 
@@ -305,7 +306,7 @@
 .staff-desc {
     color: #555;
 
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.8;
 }
 
