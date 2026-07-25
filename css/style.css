@@ -28,7 +28,12 @@ body {
 header {
     background: #877c4d;
     /* 원하는 색으로 변경 가능 */
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #877c4d;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
 }
 
 /* 상단 한 줄 */
